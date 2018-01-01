@@ -233,9 +233,9 @@ while($i>=0)
 </div>
 </div>
 
-    <script src="{{URL::asset('public/js/alertify.min.js')}}"></script>
-    <link rel="stylesheet" type="text/css" href="{{URL::asset('public/css/alertify.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{URL::asset('public/css/default.min.css')}}">
+    <script src="{{URL::asset('/js/alertify.min.js')}}"></script>
+    <link rel="stylesheet" type="text/css" href="{{URL::asset('/css/alertify.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::asset('/css/default.min.css')}}">
 @endsection
 
 

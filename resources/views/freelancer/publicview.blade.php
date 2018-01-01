@@ -4,7 +4,7 @@
        <header class="navheader">
           <div class="container">
             <a class="logo" href="{{url('/')}}">
-          <img class="img-responsive" src="{{ URL::asset('public/images/logo-rbs.png')}}" />
+          <img class="img-responsive" src="{{ URL::asset('/images/logo-rbs.png')}}" />
           </a>
           <div class="visible-md visible-lg hidden-xs hidden-sm desktop-navbar">
             <ul class="nav navbar-nav navbar-left customnav">
@@ -67,7 +67,7 @@
     <div class="card myprof">
       <div class="row inner">
         <div class="col-md-2">
-        <img src="public/images/tech1.jpg"  width="100" height="100" class="img-circle ">
+        <img src="/images/tech1.jpg"  width="100" height="100" class="img-circle ">
       </div>
       <div class="col-md-7 holhover">
         <span id="hol" type="button" class="holder"> <?php echo $ses; ?></span>

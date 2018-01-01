@@ -5,7 +5,7 @@
        <header class="navheader">
        		<div class="container">
        			<a class="logo" href="{{url('/')}}">
- 					<img class="img-responsive" src="{{ URL::asset('public/images/logo-rbs.png')}}" />
+ 					<img class="img-responsive" src="{{ URL::asset('/images/logo-rbs.png')}}" />
        		</a>
           <div class="visible-md visible-lg hidden-xs hidden-sm desktop-navbar">
             <ul class="nav navbar-nav navbar-left customnav">

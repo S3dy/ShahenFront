@@ -82,11 +82,11 @@
 	     <span class="arrow4"> <i class="fa fa-angle-down" aria-hidden="true"></i></span>
 	    			<div id="folli">
 	        		 <ul class="pull-left list-inline content foll float-left">
-	                <li><img src="{{ URL::asset('public/images/gplus.png')}}"></li>
-	                <li><img src="{{ URL::asset('public/images/fb.png')}}"></li>
-	                <li><img src="{{ URL::asset('public/images/linkedin.png')}}"></li>
-	                <li><img src="{{ URL::asset('public/images/twitter.png')}}"></li>
-	                <li><img src="{{ URL::asset('public/images/youtube.png')}}"></li>
+	                <li><img src="{{ URL::asset('/images/gplus.png')}}"></li>
+	                <li><img src="{{ URL::asset('/images/fb.png')}}"></li>
+	                <li><img src="{{ URL::asset('/images/linkedin.png')}}"></li>
+	                <li><img src="{{ URL::asset('/images/twitter.png')}}"></li>
+	                <li><img src="{{ URL::asset('/images/youtube.png')}}"></li>
 	                </ul>
 	                </div>
 	    </div>
@@ -102,8 +102,8 @@
 	          <h3 class="text-short footer-foot dwnld">Download mobile app
 
 	          <ul class="pull-right list-inline mob">
-	          	  <li><img src="{{ URL::asset('public/images/apple.png')}}"></li>
-	              <li><img src="{{ URL::asset('public/images/android.png')}}"></li>
+	          	  <li><img src="{{ URL::asset('/images/apple.png')}}"></li>
+	              <li><img src="{{ URL::asset('/images/android.png')}}"></li>
 	          </ul></h3>
 	          </div>
 	          </div>

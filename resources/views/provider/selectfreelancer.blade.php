@@ -36,7 +36,7 @@
      <div id="compact" class="card lancers short">
       <div class="row">
           <div class="col-md-1 lanpic">
-            <img src="public/images/tech2.jpg" width="60" height="60" class="img-circle">
+            <img src="/images/tech2.jpg" width="60" height="60" class="img-circle">
           </div>
           <div class="col-md-8">
             <a  class="lancera" href="#">Vishweswaran R.</a><br>
@@ -55,7 +55,7 @@
        <div id="compact" class="card lancers1 short">
       <div class="row">
           <div class="col-md-1 lanpic">
-            <img src="public/images/tech2.jpg" width="60" height="60" class="img-circle">
+            <img src="/images/tech2.jpg" width="60" height="60" class="img-circle">
           </div>
           <div class="col-md-8">
             <a  class="lancera" href="#">Vishweswaran R.</a><br>
@@ -74,7 +74,7 @@
       <div id="compact" class="card lancers1 short">
       <div class="row">
           <div class="col-md-1 lanpic">
-            <img src="public/images/tech2.jpg" width="60" height="60" class="img-circle">
+            <img src="/images/tech2.jpg" width="60" height="60" class="img-circle">
           </div>
           <div class="col-md-8">
             <a  class="lancera" href="#">Vishweswaran R.</a><br>
@@ -93,7 +93,7 @@
       <div id="compact" class="card lancers1 short">
       <div class="row">
           <div class="col-md-1 lanpic">
-            <img src="public/images/tech2.jpg" width="60" height="60" class="img-circle">
+            <img src="/images/tech2.jpg" width="60" height="60" class="img-circle">
           </div>
           <div class="col-md-8">
             <a  class="lancera" href="#">Vishweswaran R.</a><br>
@@ -112,7 +112,7 @@
       <div id="compact" class="card lancers1 short">
       <div class="row">
           <div class="col-md-1 lanpic">
-            <img src="public/images/tech2.jpg" width="60" height="60" class="img-circle">
+            <img src="/images/tech2.jpg" width="60" height="60" class="img-circle">
           </div>
           <div class="col-md-8">
             <a  class="lancera" href="#">Vishweswaran R.</a><br>
@@ -131,7 +131,7 @@
       <div id="compact" class="card lancers1 short">
       <div class="row">
           <div class="col-md-1 lanpic">
-            <img src="public/images/tech2.jpg" width="60" height="60" class="img-circle">
+            <img src="/images/tech2.jpg" width="60" height="60" class="img-circle">
           </div>
           <div class="col-md-8">
             <a  class="lancera" href="#">Vishweswaran R.</a><br>
@@ -150,7 +150,7 @@
       <div id="compact" class="card lancers1 short">
       <div class="row">
           <div class="col-md-1 lanpic">
-            <img src="public/images/tech2.jpg" width="60" height="60" class="img-circle">
+            <img src="/images/tech2.jpg" width="60" height="60" class="img-circle">
           </div>
           <div class="col-md-8">
             <a  class="lancera" href="#">Vishweswaran R.</a><br>
@@ -169,7 +169,7 @@
       <div id="compact" class="card lancers1 short">
       <div class="row">
           <div class="col-md-1 lanpic">
-            <img src="public/images/tech2.jpg" width="60" height="60" class="img-circle">
+            <img src="/images/tech2.jpg" width="60" height="60" class="img-circle">
           </div>
           <div class="col-md-8">
             <a  class="lancera" href="#">Vishweswaran R.</a><br>
@@ -188,7 +188,7 @@
       <div id="compact" class="card lancers1 short">
       <div class="row">
           <div class="col-md-1 lanpic">
-            <img src="public/images/tech2.jpg" width="60" height="60" class="img-circle">
+            <img src="/images/tech2.jpg" width="60" height="60" class="img-circle">
           </div>
           <div class="col-md-8">
             <a  class="lancera" href="#">Vishweswaran R.</a><br>
@@ -207,7 +207,7 @@
       <div id="compact" class="card lancers1 short">
       <div class="row">
           <div class="col-md-1 lanpic">
-            <img src="public/images/tech2.jpg" width="60" height="60" class="img-circle">
+            <img src="/images/tech2.jpg" width="60" height="60" class="img-circle">
           </div>
           <div class="col-md-8">
             <a  class="lancera" href="#">Vishweswaran R.</a><br>
@@ -238,7 +238,7 @@
       <div id="expand" class="card lancersexpand large">
       <div class="row">
           <div class="col-md-2 lanpic">
-            <img src="public/images/tech2.jpg" width="100" height="100" class="img-circle">
+            <img src="/images/tech2.jpg" width="100" height="100" class="img-circle">
           </div>
           <div class="col-md-9">
                   <a  class="lanceraex" href="#">Vishweswaran R.</a><br>
@@ -281,51 +281,7 @@
       <div id="expand" class="card lancersexpand1 large">
       <div class="row">
           <div class="col-md-2 lanpic">
-            <img src="public/images/tech2.jpg" width="100" height="100" class="img-circle">
-          </div>
-          <div class="col-md-9">
-                  <a  class="lanceraex" href="#">Vishweswaran R.</a><br>
-                  <p class="qualify">eBay & Amazon Guru | Store  Front & Template Designer | HTML5 | CSS3</p>
-                  <div class="row">
-                      <div class="col-md-2">
-                        <span ><p>$5.56 / hr</p></span>
-                      </div>
-                      <div class="col-md-3">
-                      <p>$2k+ earned </p>
-                      </div>
-                      <div class="col-md-6">
-                      <span><p class="lancera float-left"><span class="glyphicon glyphicon-map-marker float-left"></span>India</p></span>
-                      </div>
-                  </div>
-                  <h class="aboutex">Concept artist and illustrator living in India participated over variety of stylist Concept artist and illustrator Concept artist and illustrator living in India participated over variety of stylist ....</h><br>
-                  <div class="chip chipex">
-                   customer service
-                  </div>
-                  <div class="chip chipex">
-                   customer service
-                  </div>
-                  <div class="chip chipex">
-                   customer service
-                  </div>
-                  <div class="chip chipex">
-                   customer service
-                  </div>
-                  <a class="lanceraex" href="#">6 more</a>
-                 <div class="testex">
-                 <h >Tests:<a href="#">7</a></h>
-                 </div>
-              </div>
-
-           </div>
-          <hr class="hr-end">
-          </div>
-
-
-
-      <div id="expand" class="card lancersexpand1 large">
-      <div class="row">
-          <div class="col-md-2 lanpic">
-            <img src="public/images/tech2.jpg" width="100" height="100" class="img-circle">
+            <img src="/images/tech2.jpg" width="100" height="100" class="img-circle">
           </div>
           <div class="col-md-9">
                   <a  class="lanceraex" href="#">Vishweswaran R.</a><br>
@@ -369,7 +325,7 @@
       <div id="expand" class="card lancersexpand1 large">
       <div class="row">
           <div class="col-md-2 lanpic">
-            <img src="public/images/tech2.jpg" width="100" height="100" class="img-circle">
+            <img src="/images/tech2.jpg" width="100" height="100" class="img-circle">
           </div>
           <div class="col-md-9">
                   <a  class="lanceraex" href="#">Vishweswaran R.</a><br>
@@ -413,7 +369,7 @@
       <div id="expand" class="card lancersexpand1 large">
       <div class="row">
           <div class="col-md-2 lanpic">
-            <img src="public/images/tech2.jpg" width="100" height="100" class="img-circle">
+            <img src="/images/tech2.jpg" width="100" height="100" class="img-circle">
           </div>
           <div class="col-md-9">
                   <a  class="lanceraex" href="#">Vishweswaran R.</a><br>
@@ -457,7 +413,7 @@
       <div id="expand" class="card lancersexpand1 large">
       <div class="row">
           <div class="col-md-2 lanpic">
-            <img src="public/images/tech2.jpg" width="100" height="100" class="img-circle">
+            <img src="/images/tech2.jpg" width="100" height="100" class="img-circle">
           </div>
           <div class="col-md-9">
                   <a  class="lanceraex" href="#">Vishweswaran R.</a><br>
@@ -501,7 +457,7 @@
       <div id="expand" class="card lancersexpand1 large">
       <div class="row">
           <div class="col-md-2 lanpic">
-            <img src="public/images/tech2.jpg" width="100" height="100" class="img-circle">
+            <img src="/images/tech2.jpg" width="100" height="100" class="img-circle">
           </div>
           <div class="col-md-9">
                   <a  class="lanceraex" href="#">Vishweswaran R.</a><br>
@@ -545,7 +501,7 @@
       <div id="expand" class="card lancersexpand1 large">
       <div class="row">
           <div class="col-md-2 lanpic">
-            <img src="public/images/tech2.jpg" width="100" height="100" class="img-circle">
+            <img src="/images/tech2.jpg" width="100" height="100" class="img-circle">
           </div>
           <div class="col-md-9">
                   <a  class="lanceraex" href="#">Vishweswaran R.</a><br>
@@ -589,7 +545,7 @@
       <div id="expand" class="card lancersexpand1 large">
       <div class="row">
           <div class="col-md-2 lanpic">
-            <img src="public/images/tech2.jpg" width="100" height="100" class="img-circle">
+            <img src="/images/tech2.jpg" width="100" height="100" class="img-circle">
           </div>
           <div class="col-md-9">
                   <a  class="lanceraex" href="#">Vishweswaran R.</a><br>
@@ -633,7 +589,51 @@
       <div id="expand" class="card lancersexpand1 large">
       <div class="row">
           <div class="col-md-2 lanpic">
-            <img src="public/images/tech2.jpg" width="100" height="100" class="img-circle">
+            <img src="/images/tech2.jpg" width="100" height="100" class="img-circle">
+          </div>
+          <div class="col-md-9">
+                  <a  class="lanceraex" href="#">Vishweswaran R.</a><br>
+                  <p class="qualify">eBay & Amazon Guru | Store  Front & Template Designer | HTML5 | CSS3</p>
+                  <div class="row">
+                      <div class="col-md-2">
+                        <span ><p>$5.56 / hr</p></span>
+                      </div>
+                      <div class="col-md-3">
+                      <p>$2k+ earned </p>
+                      </div>
+                      <div class="col-md-6">
+                      <span><p class="lancera float-left"><span class="glyphicon glyphicon-map-marker float-left"></span>India</p></span>
+                      </div>
+                  </div>
+                  <h class="aboutex">Concept artist and illustrator living in India participated over variety of stylist Concept artist and illustrator Concept artist and illustrator living in India participated over variety of stylist ....</h><br>
+                  <div class="chip chipex">
+                   customer service
+                  </div>
+                  <div class="chip chipex">
+                   customer service
+                  </div>
+                  <div class="chip chipex">
+                   customer service
+                  </div>
+                  <div class="chip chipex">
+                   customer service
+                  </div>
+                  <a class="lanceraex" href="#">6 more</a>
+                 <div class="testex">
+                 <h >Tests:<a href="#">7</a></h>
+                 </div>
+              </div>
+
+           </div>
+          <hr class="hr-end">
+          </div>
+
+
+
+      <div id="expand" class="card lancersexpand1 large">
+      <div class="row">
+          <div class="col-md-2 lanpic">
+            <img src="/images/tech2.jpg" width="100" height="100" class="img-circle">
           </div>
           <div class="col-md-9">
                   <a  class="lanceraex" href="#">Vishweswaran R.</a><br>

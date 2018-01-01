@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Decline Proposal mail</title>
-<link rel="stylesheet" href="{{URL::asset('public/css/font.css')}}">
+<link rel="stylesheet" href="{{URL::asset('/css/font.css')}}">
 <style>
     .MessageBorder
     {
@@ -77,8 +77,8 @@
                                             <div>
 
                                                 <?php 
-                                                    $facebook = str_replace("{facebook}","<a href='https://www.facebook.com/'><img src='http://demo.cogzidel.com/upc/public/images/FacebookIcon1.png' height='35px'></a>",$footer);
-                                                    echo $twitter = str_replace("{twitter}","<a href='https://twitter.com/login'><img src='http://demo.cogzidel.com/upc/public/images/TwitterIcon1.png' height='35px'></a>",$facebook);
+                                                    $facebook = str_replace("{facebook}","<a href='https://www.facebook.com/'><img src='http://demo.cogzidel.com/upc//images/FacebookIcon1.png' height='35px'></a>",$footer);
+                                                    echo $twitter = str_replace("{twitter}","<a href='https://twitter.com/login'><img src='http://demo.cogzidel.com/upc//images/TwitterIcon1.png' height='35px'></a>",$facebook);
                                                 ?>
                                             </div>
                                         </td>

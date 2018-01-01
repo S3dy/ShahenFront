@@ -5,7 +5,7 @@
 
      <ul class="nav navbar-nav navbar-left ">
         <li class="l"><a class="logo log-img" href="{{url('/ab/find-work/')}}">
-             <img class="img-responsive" src="{{ URL::asset('public/images/logo-rbs.png')}}" />
+             <img class="img-responsive" src="{{ URL::asset('/images/logo-rbs.png')}}" />
             </a>
         </li>
 

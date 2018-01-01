@@ -54,7 +54,7 @@
    <div>
         
               
-     <p class="offp_tag flleft">View Offer</p><span><img id="loaderimg" style="visibility: hidden;height: 50px;margin-left: 15px;" class="loaderimg" src="{{URL('/')}}/public/images/loader.svg"></span>
+     <p class="offp_tag flleft">View Offer</p><span><img id="loaderimg" style="visibility: hidden;height: 50px;margin-left: 15px;" class="loaderimg" src="{{URL('/')}}//images/loader.svg"></span>
      @if($users1['freelancerstatus']=="Completed" && $users1['providerfeedback']['flag']==0)
       <a class="feedback_offer" href="{{URL('providerfeedbackview/'.$users[0]['jobid'].'/'.$id)}}" >Give FeedBack</a>
      @endif
@@ -285,9 +285,9 @@ while($i>=0)
 </div>
 </div>
 
-    <script src="{{URL::asset('public/js/alertify.min.js')}}"></script>
-    <link rel="stylesheet" type="text/css" href="{{URL::asset('public/css/alertify.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{URL::asset('public/css/default.min.css')}}">
+    <script src="{{URL::asset('/js/alertify.min.js')}}"></script>
+    <link rel="stylesheet" type="text/css" href="{{URL::asset('/css/alertify.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::asset('/css/default.min.css')}}">
 @endsection
 
 

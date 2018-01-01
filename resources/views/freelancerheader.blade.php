@@ -8,7 +8,7 @@
 
      <ul class="nav navbar-nav navbar-left ">
         <li class="l"><a class="logo log-img" href="{{url('/ab/find-work/')}}">
-             <img class="img-responsive" src="{{ URL::asset('public/images/logo-rbs.png')}}" />
+             <img class="img-responsive" src="{{ URL::asset('/images/logo-rbs.png')}}" />
             </a>
         </li>
           <li class="dropdown" >
@@ -37,7 +37,7 @@
        
         <li class="dropdown">
               <a class="figpic dropdown-toggle" data-toggle="dropdown" role="button" title="<?php echo $a;?>" aria-haspopup="true">
-                <img src="<?php if($b){ echo URL::asset('/public/profileimages/'.$b);} else {echo URL::asset('public/images/default.jpg'); } ?>" class="avatar avatar-xs">
+                <img src="<?php if($b){ echo URL::asset('//profileimages/'.$b);} else {echo URL::asset('/images/default.jpg'); } ?>" class="avatar avatar-xs">
                 <span class="organization-selector mlicon"><?php echo $a;?></span>
                 <span><i class="namesection fa fa-angle-down" aria-hidden="true"></i></span>
               </a>
@@ -48,7 +48,7 @@
                 </li> -->
                <a href="{{ URL::asset('/myprofile') }}" style="text-decoration: none;">
                <li class="first livalue2 liwithimage" >
-                  <img src="<?php if($b){ echo URL::asset('/public/profileimages/'.$b);} else {echo URL::asset('public/images/default.jpg'); } ?>" class="avatar avatar-xs" >
+                  <img src="<?php if($b){ echo URL::asset('//profileimages/'.$b);} else {echo URL::asset('/images/default.jpg'); } ?>" class="avatar avatar-xs" >
                   <span class="pl"><?php echo $a;?></span>
                   <div class="liusertype">Freelancers</div>
                 </li>

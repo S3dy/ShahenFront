@@ -3,17 +3,17 @@
 
   <head>
     <title>Admin - Rbs</title>
-   <script type="text/javascript" src="{{ URL::asset('public/js/jquery.js')}}" /></script>
-      <link href="{{ URL::asset('public/css/bootstrap.min.css')}} " rel="stylesheet" />
-      <script type="text/javascript" src="{{ URL::asset('public/js/bootstrap.min.js')}}" /></script>
-      <script type="text/javascript" src="{{ URL::asset('public/js/admin.js')}}" /></script>
-      <script type="text/javascript" src="{{ URL::asset('public/js/tinymce/tinymce.min.js')}}"></script>
-      <script type="text/javascript" src="{{ URL::asset('public/js/jquery.dataTables.js')}}" /></script>
-      <script type="text/javascript" src="{{ URL::asset('public/js/dataTables.bootstrap.js')}}" /></script>
-      <link href="{{URL::asset('public/css/admin.css')}}" rel="stylesheet" />
-      <link rel="stylesheet" href="{{URL::asset('public/css/font-awesome.css')}}">
-      <link rel="stylesheet" href="{{URL::asset('public/css/font.css')}}">
-      <link rel="stylesheet" href="{{URL::asset('public/css/dataTables.bootstrap.css')}}">
+   <script type="text/javascript" src="{{ URL::asset('/js/jquery.js')}}" /></script>
+      <link href="{{ URL::asset('/css/bootstrap.min.css')}} " rel="stylesheet" />
+      <script type="text/javascript" src="{{ URL::asset('/js/bootstrap.min.js')}}" /></script>
+      <script type="text/javascript" src="{{ URL::asset('/js/admin.js')}}" /></script>
+      <script type="text/javascript" src="{{ URL::asset('/js/tinymce/tinymce.min.js')}}"></script>
+      <script type="text/javascript" src="{{ URL::asset('/js/jquery.dataTables.js')}}" /></script>
+      <script type="text/javascript" src="{{ URL::asset('/js/dataTables.bootstrap.js')}}" /></script>
+      <link href="{{URL::asset('/css/admin.css')}}" rel="stylesheet" />
+      <link rel="stylesheet" href="{{URL::asset('/css/font-awesome.css')}}">
+      <link rel="stylesheet" href="{{URL::asset('/css/font.css')}}">
+      <link rel="stylesheet" href="{{URL::asset('/css/dataTables.bootstrap.css')}}">
       <style>
 
         html, body {
@@ -93,7 +93,7 @@
               <form action="{{url('/admin_email')}}" method="post" id="sec">
               <input type = "hidden" name = "_token" id="_token" value = "<?php echo csrf_token(); ?>">
                 <div class="m-b-30">
-                    <span class=" foot_add">Email Management</span> <span><img id="loaderimg" style="visibility: hidden;" class="loaderimg" src="{{URL('/')}}/public/images/loader.svg"></span>
+                    <span class=" foot_add">Email Management</span> <span><img id="loaderimg" style="visibility: hidden;" class="loaderimg" src="{{URL('/')}}//images/loader.svg"></span>
                 </div>
               <div class="adimg m-b-30">
              <select name="options" class="form-control foot_select" id="options">

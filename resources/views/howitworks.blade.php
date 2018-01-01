@@ -4,7 +4,7 @@
        <header class="navheader">
        		<div class="container">
        			<a class="logo" href="{{url('/')}}">
- 					<img class="img-responsive" src="{{ URL::asset('public/images/logo-rbs.png')}}" />
+ 					<img class="img-responsive" src="{{ URL::asset('/images/logo-rbs.png')}}" />
        		</a>
           <div class="visible-md visible-lg desktop-navbar">
             <ul class="nav navbar-nav navbar-left customnav">
@@ -75,12 +75,12 @@
 	 	  	  	 </div>
 	 	  	  </div>
 	 	  	  <div class="text-with-image col-md-6">
-	 	  	    <img src="{{ URL::asset('public/images/workh.svg')}}">
+	 	  	    <img src="{{ URL::asset('/images/workh.svg')}}">
 	 	  	  </div>
 	 	  </div>
 	 	  <div class="row " >
 	 	  	  <div class="text-with-image col-md-6">
-	 	  	    <img src="{{ URL::asset('public/images/pay.svg')}}">
+	 	  	    <img src="{{ URL::asset('/images/pay.svg')}}">
 	 	  	  	<br><br>
 	 	  	  </div>
 

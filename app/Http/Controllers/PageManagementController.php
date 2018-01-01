@@ -49,7 +49,7 @@ class PageManagementController extends Controller
     {
         if($request->photo){
             $file=$request->file('photo');
-            $destinationPath = 'public/images';
+            $destinationPath = '/images';
             $ext=$file->getClientOriginalExtension();
             $file->move($destinationPath,"HomePageBanner".'.'.$ext);
             $name="HomePageBanner";
@@ -99,7 +99,7 @@ class PageManagementController extends Controller
         if($request->photo)
         {
             $file=$request->file('photo');
-            $destinationPath = 'public/images';
+            $destinationPath = '/images';
             $ext=$file->getClientOriginalExtension();
             $file->move($destinationPath,"titleone_img".'.'.$ext);
             $name="titleone_img";
@@ -131,7 +131,7 @@ class PageManagementController extends Controller
         if($request->photo)
         {
             $file=$request->file('photo');
-            $destinationPath = 'public/images';
+            $destinationPath = '/images';
             $ext=$file->getClientOriginalExtension();
             $file->move($destinationPath,"titletwo_img".'.'.$ext);
             $name="titletwo_img";
@@ -162,7 +162,7 @@ class PageManagementController extends Controller
         if($request->photo)
         {
             $file=$request->file('photo');
-            $destinationPath = 'public/images';
+            $destinationPath = '/images';
             $ext=$file->getClientOriginalExtension();
             $file->move($destinationPath,"titlethree_img".'.'.$ext);
             $name="titlethree_img";
@@ -192,7 +192,7 @@ class PageManagementController extends Controller
         if($request->photo)
         {
             $file=$request->file('photo');
-            $destinationPath = 'public/images';
+            $destinationPath = '/images';
             $ext=$file->getClientOriginalExtension();
             $file->move($destinationPath,"titlefour_img".'.'.$ext);
             $name="titlefour_img";
@@ -221,7 +221,7 @@ class PageManagementController extends Controller
         if($request->photo1)
         {
         $file1=$request->file('photo1');
-        $destinationPath1 = 'public/images';
+        $destinationPath1 = '/images';
         $ext1=$file1->getClientOriginalExtension();
         $file1->move($destinationPath1,"slider_img1".'.'.$ext1);
         $name1="slider_img1";
@@ -235,7 +235,7 @@ class PageManagementController extends Controller
         if($request->photo2)
         {
             $file2=$request->file('photo2');
-            $destinationPath2 = 'public/images';
+            $destinationPath2 = '/images';
             $ext2=$file2->getClientOriginalExtension();
             $file2->move($destinationPath2,"slider_img2".'.'.$ext2);
             $name2="slider_img2";
@@ -262,7 +262,7 @@ class PageManagementController extends Controller
         if($request->photo)
         {
             $file=$request->file('photo');
-            $destinationPath = 'public/images';
+            $destinationPath = '/images';
             $ext=$file->getClientOriginalExtension();
             $file->move($destinationPath,"widebanner_img".'.'.$ext);
             $name="widebanner_img";
@@ -325,7 +325,7 @@ class PageManagementController extends Controller
         if($request->photo)
         {
             $file=$req->file('photo');
-            $destinationPath = 'public/images';
+            $destinationPath = '/images';
             $ext=$file->getClientOriginalExtension();
             $file->move($destinationPath,"section1_banner".'.'.$ext);
             $name="section1_banner";
@@ -353,7 +353,7 @@ class PageManagementController extends Controller
         if($request->photo1)
         {
             $file1=$request->file('photo1');
-            $destinationPath1 = 'public/images';
+            $destinationPath1 = '/images';
             $ext1=$file1->getClientOriginalExtension();
             $file1->move($destinationPath1,"section2_image1".'.'.$ext1);
             $name1="section2_image1";
@@ -366,7 +366,7 @@ class PageManagementController extends Controller
         if($request->photo2)
         {
             $file2=$request->file('photo2');
-            $destinationPath2 = 'public/images';
+            $destinationPath2 = '/images';
             $ext2=$file2->getClientOriginalExtension();
             $file2->move($destinationPath2,"section2_image2".'.'.$ext2);
             $name2="section2_image2";
@@ -379,7 +379,7 @@ class PageManagementController extends Controller
         if($request->photo3)
         {
             $file3=$request->file('photo3');
-            $destinationPath3 = 'public/images';
+            $destinationPath3 = '/images';
             $ext3=$file3->getClientOriginalExtension();
             $file3->move($destinationPath3,"section2_image3".'.'.$ext3);
             $name3="section2_image3";
@@ -392,7 +392,7 @@ class PageManagementController extends Controller
         if($request->photo4)
         {
             $file4=$request->file('photo4');
-            $destinationPath4 = 'public/images';
+            $destinationPath4 = '/images';
             $ext4=$file4->getClientOriginalExtension();
             $file4->move($destinationPath4,"section2_image4".'.'.$ext4);
             $name4="section2_image4";

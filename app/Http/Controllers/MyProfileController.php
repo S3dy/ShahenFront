@@ -40,11 +40,11 @@ class MyProfileController extends Controller
       $skills=$req->proj_skills;
 
     	  // $file = $req->file('proj_image');
-       //  $destinationPath = 'public/ranjit';
+       //  $destinationPath = '/ranjit';
        //  $file->move($destinationPath,$file->getClientOriginalName());
        //  $upload=$destinationPath.'/'.$file->getClientOriginalName();
        //  $file1 = $req->file('proj_files');
-       //  $destinationPath1 = 'public/uploads';
+       //  $destinationPath1 = '/uploads';
        //  //$ext=$file1->getClientOriginalExtension();
        //  $file1->move($destinationPath1,$file1->getClientOriginalName());
        //  $upload1=$destinationPath1.'/'.$file1->getClientOriginalName();

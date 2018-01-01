@@ -72,7 +72,7 @@
 		<div class="card myprof">
 			<div class="row inner">
 				<div class="col-md-2">
-				<img src="<?php if($obj[0]['profilepic'] !=""){ echo URL::asset('/public/profileimages/'.$obj[0]['profilepic']); } else {echo URL::asset('public/images/default.jpg'); } ?>" data-toggle="modal" data-target="#dp" width="100" height="100" class="img-circle ">
+				<img src="<?php if($obj[0]['profilepic'] !=""){ echo URL::asset('//profileimages/'.$obj[0]['profilepic']); } else {echo URL::asset('/images/default.jpg'); } ?>" data-toggle="modal" data-target="#dp" width="100" height="100" class="img-circle ">
 			</div>
 			<div class="col-md-7 holhover">
 			 	<a class="holink1"><span id="hol" type="button" data-toggle="modal" data-target="#editname" class="holder"> <?php echo $ses; ?></span></a> <span  id="pencil" class="glyphicon glyphicon-pencil icon nameicn" type="button" data-toggle="modal" data-target="#editname" aria-hidden="true" ></span>

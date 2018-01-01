@@ -5,7 +5,7 @@
        <header class="navheader">
        		<div class="container">
        			<a class="logo" href="{{url('/')}}">
- 					<img class="img-responsive" src="{{ URL::asset('public/images/logo-rbs.png')}}" />
+ 					<img class="img-responsive" src="{{ URL::asset('/images/logo-rbs.png')}}" />
        		</a>
           <div class="visible-md visible-lg hidden-xs hidden-sm desktop-navbar">
             <ul class="nav navbar-nav navbar-left customnav">
@@ -35,7 +35,7 @@
   <div class="row rowmarg">
   <div class="col-md-4"></div>
   <div class="col-md-4">
-<img class="img-circle chatimg" src="{{ URL::asset('public/images/tech2.jpg') }}" width="50px" height="50px">
+<img class="img-circle chatimg" src="{{ URL::asset('/images/tech2.jpg') }}" width="50px" height="50px">
 <div class="imgcaption">
 You
 </div>
@@ -54,7 +54,7 @@ You
 
 <div class="row rowmarg">
 <div class="col-md-2">
-<img class="img-circle chatimg1" src="{{ URL::asset('public/images/tech2.jpg') }}" width="50px" height="50px">
+<img class="img-circle chatimg1" src="{{ URL::asset('/images/tech2.jpg') }}" width="50px" height="50px">
 <div class="imgcaption1">You
 </div>
 </div>
@@ -69,7 +69,7 @@ You
 
 <div class="row rowmarg">
 <div class="col-md-2">
-<img class="img-circle chatimg1" src="{{ URL::asset('public/images/tech2.jpg') }}" width="50px" height="50px">
+<img class="img-circle chatimg1" src="{{ URL::asset('/images/tech2.jpg') }}" width="50px" height="50px">
 <div class="imgcaption1">You
 </div>
 </div>
@@ -92,7 +92,7 @@ You
   </div>
 </div>
 <div class="col-md-2">
-<img class="img-circle chatimg1" src="{{ URL::asset('public/images/tech1.jpg') }}" width="50px" height="50px">
+<img class="img-circle chatimg1" src="{{ URL::asset('/images/tech1.jpg') }}" width="50px" height="50px">
 <div class="imgcaption1">other one
 </div>
 </div>

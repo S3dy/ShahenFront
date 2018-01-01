@@ -4,17 +4,17 @@
     <head>
 
             <title>@yield('title')</title>
-            <script type="text/javascript" src="{{ URL::asset('public/js/jquery-1.12.4.js')}}" /></script>
-            <link href="{{ URL::asset('public/css/bootstrap.min.css')}} " rel="stylesheet" />
-            <script type="text/javascript" src="{{ URL::asset('public/js/bootstrap.min.js')}}" /></script>
-            <script type="text/javascript" src="{{ URL::asset('public/js/admin.js')}}" /></script>
-            <script type="text/javascript" src="{{ URL::asset('public/js/script.js')}}" /></script>
-            <script type="text/javascript" src="{{ URL::asset('public/js/jquery.dataTables.js')}}" /></script>
-            <script type="text/javascript" src="{{ URL::asset('public/js/dataTables.bootstrap.js')}}" /></script>
-            <link href="{{URL::asset('public/css/admin.css')}}" rel="stylesheet" />
-            <link rel="stylesheet" href="{{URL::asset('public/css/font-awesome.css')}}">
-            <link rel="stylesheet" href="{{URL::asset('public/css/font.css')}}">
-            <link rel="stylesheet" href="{{URL::asset('public/css/dataTables.bootstrap.css')}}">
+            <script type="text/javascript" src="{{ URL::asset('/js/jquery-1.12.4.js')}}" /></script>
+            <link href="{{ URL::asset('/css/bootstrap.min.css')}} " rel="stylesheet" />
+            <script type="text/javascript" src="{{ URL::asset('/js/bootstrap.min.js')}}" /></script>
+            <script type="text/javascript" src="{{ URL::asset('/js/admin.js')}}" /></script>
+            <script type="text/javascript" src="{{ URL::asset('/js/script.js')}}" /></script>
+            <script type="text/javascript" src="{{ URL::asset('/js/jquery.dataTables.js')}}" /></script>
+            <script type="text/javascript" src="{{ URL::asset('/js/dataTables.bootstrap.js')}}" /></script>
+            <link href="{{URL::asset('/css/admin.css')}}" rel="stylesheet" />
+            <link rel="stylesheet" href="{{URL::asset('/css/font-awesome.css')}}">
+            <link rel="stylesheet" href="{{URL::asset('/css/font.css')}}">
+            <link rel="stylesheet" href="{{URL::asset('/css/dataTables.bootstrap.css')}}">
 
 
     </head>
@@ -23,7 +23,7 @@
 
 <aside id="side-menu" class="aside side" role="navigation">
       <div class="logo">
-       <a href="#"><img  src="{{ URL::asset('public/images/logo-rbs.png')}}" style="height:45px; width:106px;padding-top:5px;"/></a>
+       <a href="#"><img  src="{{ URL::asset('/images/logo-rbs.png')}}" style="height:45px; width:106px;padding-top:5px;"/></a>
     </div>
 @yield('content')
          <ul class="nav nav-list accordion">

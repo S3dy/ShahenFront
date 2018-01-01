@@ -40,7 +40,7 @@ $datag=json_decode($sdata,true);
 	<div class="card provcad" id="nm">
 	<div class="row">
 		<div class="col-md-2">
-			<img src="<?php if($datag['profilepic'] !=""){ echo URL::asset('/public/profileimages/'.$datag['profilepic']); } else {echo URL::asset('public/images/default.jpg'); } ?>" class="img-circle provpic" data-toggle="modal" data-target="#dp" height="65" width="65">
+			<img src="<?php if($datag['profilepic'] !=""){ echo URL::asset('//profileimages/'.$datag['profilepic']); } else {echo URL::asset('/images/default.jpg'); } ?>" class="img-circle provpic" data-toggle="modal" data-target="#dp" height="65" width="65">
 		</div>
 		<div class="col-md-8 ">
 			<div class="namediv">
@@ -58,7 +58,7 @@ $datag=json_decode($sdata,true);
 	<div class="card provnmedit" id="wrnm">
 	<div class="row">
 		<div class="col-md-2">
-			<img src="<?php if($datag['profilepic'] !=""){ echo URL::asset('/public/profileimages/'.$datag['profilepic']); } else {echo URL::asset('public/images/default.jpg'); } ?>" class="img-circle provpic" data-toggle="modal" data-target="#dp" height="65" width="65">
+			<img src="<?php if($datag['profilepic'] !=""){ echo URL::asset('//profileimages/'.$datag['profilepic']); } else {echo URL::asset('/images/default.jpg'); } ?>" class="img-circle provpic" data-toggle="modal" data-target="#dp" height="65" width="65">
 		</div>
 		<div class="col-md-8">
 		
@@ -132,7 +132,7 @@ $datag=json_decode($sdata,true);
 	<div class="card mailcd compani" id="cmny">
 	<div class="row">
 		<div class="col-md-2">
-			<img src="public/images/default.jpg" class="img-circle provpic" data-toggle="modal" data-target="#logo" height="50" width="50">
+			<img src="/images/default.jpg" class="img-circle provpic" data-toggle="modal" data-target="#logo" height="50" width="50">
 		</div>
 		<div class="col-md-8 companydet">
 			<strong class="logoname" id="cmpnynamei"><?php echo $datag['providerprofile']['companydetails']['companyname']; ?></strong>
@@ -146,7 +146,7 @@ $datag=json_decode($sdata,true);
 	<div class="card mailcd wrcompani" id="wrcmny">
 	<div class="row">
 		<div class="col-md-2">
-			<img src="public/images/default.jpg" class="img-circle provpic" data-toggle="modal" data-target="#logo" height="50" width="50">
+			<img src="/images/default.jpg" class="img-circle provpic" data-toggle="modal" data-target="#logo" height="50" width="50">
 		</div>
 		<div class="col-md-8">
 			<form id="company_details">

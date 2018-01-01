@@ -3,17 +3,17 @@
 
   <head>
     <title>Admin - Rbs</title>
-      <script type="text/javascript" src="{{ URL::asset('public/js/jquery.js')}}" /></script>
-      <link href="{{ URL::asset('public/css/bootstrap.min.css')}} " rel="stylesheet" />
-      <script type="text/javascript" src="{{ URL::asset('public/js/bootstrap.min.js')}}" /></script>
-      <script type="text/javascript" src="{{ URL::asset('public/js/admin.js')}}" /></script>
-      <script type="text/javascript" src="{{ URL::asset('public/js/jquery.dataTables.js')}}" /></script>
-      <script type="text/javascript" src="{{ URL::asset('public/js/dataTables.bootstrap.js')}}" /></script>
-      <link href="{{URL::asset('public/css/admin.css')}}" rel="stylesheet" />
-      <link rel="stylesheet" href="{{URL::asset('public/css/font-awesome.css')}}">
-      <link rel="stylesheet" href="{{URL::asset('public/css/font.css')}}">
-      <link rel="stylesheet" href="{{URL::asset('public/css/dataTables.bootstrap.css')}}">
-      <link rel="stylesheet" href="{{URL::asset('public/images/favicon.ico')}}">
+      <script type="text/javascript" src="{{ URL::asset('/js/jquery.js')}}" /></script>
+      <link href="{{ URL::asset('/css/bootstrap.min.css')}} " rel="stylesheet" />
+      <script type="text/javascript" src="{{ URL::asset('/js/bootstrap.min.js')}}" /></script>
+      <script type="text/javascript" src="{{ URL::asset('/js/admin.js')}}" /></script>
+      <script type="text/javascript" src="{{ URL::asset('/js/jquery.dataTables.js')}}" /></script>
+      <script type="text/javascript" src="{{ URL::asset('/js/dataTables.bootstrap.js')}}" /></script>
+      <link href="{{URL::asset('/css/admin.css')}}" rel="stylesheet" />
+      <link rel="stylesheet" href="{{URL::asset('/css/font-awesome.css')}}">
+      <link rel="stylesheet" href="{{URL::asset('/css/font.css')}}">
+      <link rel="stylesheet" href="{{URL::asset('/css/dataTables.bootstrap.css')}}">
+      <link rel="stylesheet" href="{{URL::asset('/images/favicon.ico')}}">
       <style>
 
         html, body {

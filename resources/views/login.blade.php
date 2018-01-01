@@ -13,7 +13,7 @@ function validateForm() {
  <header class="navheader loginnav">
             <div class="container login-container">
                 <a class="logo1 a-navbar" href="{{url('/')}}">
-                    <img src="{{ URL::asset('public/images/logo-rbs.png')}}" />
+                    <img src="{{ URL::asset('/images/logo-rbs.png')}}" />
             </a>
           <div class="visible-md visible-lg desktop-navbar">
 

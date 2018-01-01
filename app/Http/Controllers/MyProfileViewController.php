@@ -259,7 +259,7 @@ public function freelancerProfilePicture(Request $request)
                   $imgData = base64_decode($imgData);
                   // Path where the image is going to be saved
                   $filename1 = $fname.'01.'.$fileext1;
-                  $filePath =  'public/profileimages/'.$filename1;
+                  $filePath =  '/profileimages/'.$filename1;
 
                   // Write $imgData into the image file
                   $file = fopen($filePath, 'w');
@@ -272,7 +272,7 @@ public function freelancerProfilePicture(Request $request)
                   $imgData = base64_decode($imgData);
                   // Path where the image is going to be saved
                   $filename2 = $fname.'02.'.$fileext2;
-                  $filePath =  'public/profileimages/'.$filename2;
+                  $filePath =  '/profileimages/'.$filename2;
                   // Write $imgData into the image file
                   $file = fopen($filePath, 'w');
                   fwrite($file, $imgData);
